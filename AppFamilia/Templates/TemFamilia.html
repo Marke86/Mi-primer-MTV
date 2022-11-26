@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Simpsons</title>
+
+</head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}"/>
+
+    <h1>The Simpsons</h1>
+<body  style="background-color:yellow ;">
+        <table>
+        <tr>
+            <th> </th>
+            <th>Familiar 1</th>
+            <th>Familiar 2</th>
+            <th>Familiar 3</th>
+            <th>Familiar 4</th>
+            <th>Familiar 5</th>
+            <th>Familiar 6</th>
+        </tr>
+        <tr>
+            <td>NOMBRE</td>
+            <td>{{ Nombre1 }}</td>
+            <td>{{ Nombre2 }}</td>
+            <td>{{ Nombre3 }}</td>
+            <td>{{ Nombre4 }}</td>
+            <td>{{ Nombre5 }}</td>
+            <td>{{ Nombre6 }}</td>
+        </tr>
+        <tr>
+            <td>APELLIDO</td>
+            <td>{{ Apellido1 }}</td>
+            <td>{{ Apellido2 }}</td>
+            <td>{{ Apellido3 }}</td>
+            <td>{{ Apellido4 }}</td>
+            <td>{{ Apellido5 }}</td>
+            <td>{{ Apellido6 }}</td>
+        </tr>
+        <tr>
+            <td>EDAD</td>
+            <td>{{ Edad1 }}</td>
+            <td>{{ Edad2 }}</td>
+            <td>{{ Edad3 }}</td>
+            <td>{{ Edad4 }}</td>
+            <td>{{ Edad5 }}</td>
+            <td>{{ Edad6 }}</td>
+        </tr>
+       </table>
+
+
+    
+    
+</body>
+</html>
